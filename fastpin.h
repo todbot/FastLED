@@ -268,7 +268,7 @@ _IO(B);
 _DEFPIN_AVR(0, 0x01, B); _DEFPIN_AVR(1, 0x02, B); _DEFPIN_AVR(2, 0x04, B); _DEFPIN_AVR(3, 0x08, B);
 _DEFPIN_AVR(4, 0x10, B); _DEFPIN_AVR(5, 0x20, B);
 
-#elif(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__) || defined(__AVR_ATtiny25__) || defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__)
+#elif(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__) 
 _IO(A); _IO(B);
 
 _DEFPIN_AVR(0, 0x01, A); _DEFPIN_AVR(1, 0x02, A); _DEFPIN_AVR(2, 0x04, A); _DEFPIN_AVR(3, 0x08, A);
